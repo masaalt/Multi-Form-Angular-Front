@@ -1,0 +1,10 @@
+<nb-card style="direction:rtl; text-align:right">
+  <nb-card-header style="padding-left:85%">
+    اطلاعات مساجد
+  </nb-card-header>
+
+  <nb-card-body>
+    <ng2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="onDeleteConfirm($event)">
+    </ng2-smart-table>
+  </nb-card-body>
+</nb-card>
